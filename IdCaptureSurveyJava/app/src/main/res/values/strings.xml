@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IdCaptureSurvey</string>
+    <string name="scan_document_action">Scan document</string>
+    <string name="restart_action">Restart</string>
+</resources>
