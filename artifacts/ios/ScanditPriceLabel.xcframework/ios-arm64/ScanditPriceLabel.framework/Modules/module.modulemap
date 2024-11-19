@@ -1,0 +1,6 @@
+framework module ScanditPriceLabel {
+  umbrella header "ScanditPriceLabel.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ScanditIdAamvaBarcodeVerification {
+  umbrella header "ScanditIdAamvaBarcodeVerification.h"
+  export *
+
+  module * { export * }
+}

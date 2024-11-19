@@ -1,0 +1,6 @@
+framework module ScanditIdEuropeDrivingLicense {
+  umbrella header "ScanditIdEuropeDrivingLicense.h"
+  export *
+
+  module * { export * }
+}

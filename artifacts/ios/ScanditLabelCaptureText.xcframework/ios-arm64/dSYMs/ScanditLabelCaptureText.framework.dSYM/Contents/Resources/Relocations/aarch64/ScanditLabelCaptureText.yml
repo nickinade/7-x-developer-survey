@@ -1,0 +1,7 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Volumes/EngData/builds/data-capture-sdk/build/_build/ios/native/libs/sdc/label-text-models/ios/Release-iphoneos/ScanditLabelCaptureText.framework/ScanditLabelCaptureText'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x27, size: 0x8, addend: 0x0, symName: __ZL10initializev, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x6C }
+  - { offsetInCU: 0x312, offset: 0x312, size: 0x8, addend: 0x0, symName: __ZL10initializev, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x6C }
+...

@@ -1,0 +1,6 @@
+framework module ScanditLabelCaptureText {
+  umbrella header "ScanditLabelCaptureText.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ScanditIdVoidedDetection {
+  umbrella header "ScanditIdVoidedDetection.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,952 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "IdCaptureDocumentType",
+        "printedName": "IdCaptureDocumentType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ScanditIdCapture.IdCaptureDocumentType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdCaptureDocumentType",
+                    "printedName": "ScanditIdCapture.IdCaptureDocumentType",
+                    "usr": "c:@E@SDCIdCaptureDocumentType"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So24SDCIdCaptureDocumentTypeV09ScanditIdB0E8allCasesSayABGvpZ",
+            "mangledName": "$sSo24SDCIdCaptureDocumentTypeV09ScanditIdB0E8allCasesSayABGvpZ",
+            "moduleName": "ScanditIdCapture",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ScanditIdCapture.IdCaptureDocumentType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdCaptureDocumentType",
+                        "printedName": "ScanditIdCapture.IdCaptureDocumentType",
+                        "usr": "c:@E@SDCIdCaptureDocumentType"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So24SDCIdCaptureDocumentTypeV09ScanditIdB0E8allCasesSayABGvgZ",
+                "mangledName": "$sSo24SDCIdCaptureDocumentTypeV09ScanditIdB0E8allCasesSayABGvgZ",
+                "moduleName": "ScanditIdCapture",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So24SDCIdCaptureDocumentTypeV09ScanditIdB0E11descriptionSSvp",
+            "mangledName": "$sSo24SDCIdCaptureDocumentTypeV09ScanditIdB0E11descriptionSSvp",
+            "moduleName": "ScanditIdCapture",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So24SDCIdCaptureDocumentTypeV09ScanditIdB0E11descriptionSSvg",
+                "mangledName": "$sSo24SDCIdCaptureDocumentTypeV09ScanditIdB0E11descriptionSSvg",
+                "moduleName": "ScanditIdCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@SDCIdCaptureDocumentType",
+        "moduleName": "ScanditIdCapture",
+        "objc_name": "SDCIdCaptureDocumentType",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "UInt",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ScanditIdCapture.IdCaptureDocumentType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdCaptureDocumentType",
+                        "printedName": "ScanditIdCapture.IdCaptureDocumentType",
+                        "usr": "c:@E@SDCIdCaptureDocumentType"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IdCaptureRegion",
+        "printedName": "IdCaptureRegion",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ScanditIdCapture.IdCaptureRegion]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdCaptureRegion",
+                    "printedName": "ScanditIdCapture.IdCaptureRegion",
+                    "usr": "c:@E@SDCIdCaptureRegion"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18SDCIdCaptureRegionV09ScanditIdB0E8allCasesSayABGvpZ",
+            "mangledName": "$sSo18SDCIdCaptureRegionV09ScanditIdB0E8allCasesSayABGvpZ",
+            "moduleName": "ScanditIdCapture",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ScanditIdCapture.IdCaptureRegion]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdCaptureRegion",
+                        "printedName": "ScanditIdCapture.IdCaptureRegion",
+                        "usr": "c:@E@SDCIdCaptureRegion"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18SDCIdCaptureRegionV09ScanditIdB0E8allCasesSayABGvgZ",
+                "mangledName": "$sSo18SDCIdCaptureRegionV09ScanditIdB0E8allCasesSayABGvgZ",
+                "moduleName": "ScanditIdCapture",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18SDCIdCaptureRegionV09ScanditIdB0E11descriptionSSvp",
+            "mangledName": "$sSo18SDCIdCaptureRegionV09ScanditIdB0E11descriptionSSvp",
+            "moduleName": "ScanditIdCapture",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18SDCIdCaptureRegionV09ScanditIdB0E11descriptionSSvg",
+                "mangledName": "$sSo18SDCIdCaptureRegionV09ScanditIdB0E11descriptionSSvg",
+                "moduleName": "ScanditIdCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@SDCIdCaptureRegion",
+        "moduleName": "ScanditIdCapture",
+        "objc_name": "SDCIdCaptureRegion",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "UInt",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ScanditIdCapture.IdCaptureRegion]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdCaptureRegion",
+                        "printedName": "ScanditIdCapture.IdCaptureRegion",
+                        "usr": "c:@E@SDCIdCaptureRegion"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IdDocumentType",
+        "printedName": "IdDocumentType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ScanditIdCapture.IdDocumentType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdDocumentType",
+                    "printedName": "ScanditIdCapture.IdDocumentType",
+                    "usr": "c:@E@SDCIdDocumentType"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So17SDCIdDocumentTypeV16ScanditIdCaptureE8allCasesSayABGvpZ",
+            "mangledName": "$sSo17SDCIdDocumentTypeV16ScanditIdCaptureE8allCasesSayABGvpZ",
+            "moduleName": "ScanditIdCapture",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ScanditIdCapture.IdDocumentType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdDocumentType",
+                        "printedName": "ScanditIdCapture.IdDocumentType",
+                        "usr": "c:@E@SDCIdDocumentType"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So17SDCIdDocumentTypeV16ScanditIdCaptureE8allCasesSayABGvgZ",
+                "mangledName": "$sSo17SDCIdDocumentTypeV16ScanditIdCaptureE8allCasesSayABGvgZ",
+                "moduleName": "ScanditIdCapture",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So17SDCIdDocumentTypeV16ScanditIdCaptureE11descriptionSSvp",
+            "mangledName": "$sSo17SDCIdDocumentTypeV16ScanditIdCaptureE11descriptionSSvp",
+            "moduleName": "ScanditIdCapture",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So17SDCIdDocumentTypeV16ScanditIdCaptureE11descriptionSSvg",
+                "mangledName": "$sSo17SDCIdDocumentTypeV16ScanditIdCaptureE11descriptionSSvg",
+                "moduleName": "ScanditIdCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@E@SDCIdDocumentType",
+        "moduleName": "ScanditIdCapture",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "OptionSet",
+            "printedName": "OptionSet",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdDocumentType",
+                    "printedName": "ScanditIdCapture.IdDocumentType",
+                    "usr": "c:@E@SDCIdDocumentType"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s9OptionSetP",
+            "mangledName": "$ss9OptionSetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SetAlgebra",
+            "printedName": "SetAlgebra",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdDocumentType",
+                    "printedName": "ScanditIdCapture.IdDocumentType",
+                    "usr": "c:@E@SDCIdDocumentType"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SetAlgebraP",
+            "mangledName": "$ss10SetAlgebraP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdDocumentType",
+                    "printedName": "ScanditIdCapture.IdDocumentType",
+                    "usr": "c:@E@SDCIdDocumentType"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ScanditIdCapture.IdDocumentType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdDocumentType",
+                        "printedName": "ScanditIdCapture.IdDocumentType",
+                        "usr": "c:@E@SDCIdDocumentType"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RejectionReason",
+        "printedName": "RejectionReason",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18SDCRejectionReasonV16ScanditIdCaptureE11descriptionSSvp",
+            "mangledName": "$sSo18SDCRejectionReasonV16ScanditIdCaptureE11descriptionSSvp",
+            "moduleName": "ScanditIdCapture",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18SDCRejectionReasonV16ScanditIdCaptureE11descriptionSSvg",
+                "mangledName": "$sSo18SDCRejectionReasonV16ScanditIdCaptureE11descriptionSSvg",
+                "moduleName": "ScanditIdCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@SDCRejectionReason",
+        "moduleName": "ScanditIdCapture",
+        "objc_name": "SDCRejectionReason",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "Frozen",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "UInt",
+        "isExternal": true,
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UsRealIdStatus",
+        "printedName": "UsRealIdStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So17SDCUsRealIdStatusV07ScanditC7CaptureE11descriptionSSvp",
+            "mangledName": "$sSo17SDCUsRealIdStatusV07ScanditC7CaptureE11descriptionSSvp",
+            "moduleName": "ScanditIdCapture",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So17SDCUsRealIdStatusV07ScanditC7CaptureE11descriptionSSvg",
+                "mangledName": "$sSo17SDCUsRealIdStatusV07ScanditC7CaptureE11descriptionSSvg",
+                "moduleName": "ScanditIdCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@SDCUsRealIdStatus",
+        "moduleName": "ScanditIdCapture",
+        "objc_name": "SDCUsRealIdStatus",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "Frozen",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "UInt",
+        "isExternal": true,
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
