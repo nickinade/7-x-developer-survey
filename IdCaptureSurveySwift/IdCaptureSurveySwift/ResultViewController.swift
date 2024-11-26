@@ -15,9 +15,36 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-
+        
+    // MARK: - UI Elements
+    private let resultLabel: UILabel = {
+        let label = UILabel()
+        label.numberOfLines = 0
+        return label
+    }()
+    
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupViews()
+    }
+    
+    // MARK: - UI Setup
+    private func setupViews() {
+        title = "Scan results"
+        
+        view.addSubview(resultLabel)
+        
+        resultLabel.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            resultLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
+            resultLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
+            resultLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16)
+        ])
+    }
+    
+    func setResultLabel(text: String) {
+        resultLabel.text = text
     }
 
     @IBAction func resetButtonTapped(_ sender: Any) {

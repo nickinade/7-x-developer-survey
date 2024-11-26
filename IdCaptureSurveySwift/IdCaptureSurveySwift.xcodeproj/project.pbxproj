@@ -3,10 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87280C402CEF81B700FC6F1A /* ScanditBarcodeCapture.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C352CEF81B700FC6F1A /* ScanditBarcodeCapture.xcframework */; };
+		87280C412CEF81B700FC6F1A /* ScanditBarcodeCapture.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C352CEF81B700FC6F1A /* ScanditBarcodeCapture.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87280C422CEF81B700FC6F1A /* ScanditIdVoidedDetection.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C362CEF81B700FC6F1A /* ScanditIdVoidedDetection.xcframework */; };
+		87280C432CEF81B700FC6F1A /* ScanditIdVoidedDetection.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C362CEF81B700FC6F1A /* ScanditIdVoidedDetection.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87280C442CEF81B700FC6F1A /* ScanditLabelCapture.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C372CEF81B700FC6F1A /* ScanditLabelCapture.xcframework */; };
+		87280C452CEF81B700FC6F1A /* ScanditLabelCapture.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C372CEF81B700FC6F1A /* ScanditLabelCapture.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87280C462CEF81B700FC6F1A /* ScanditIdCapture.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C382CEF81B700FC6F1A /* ScanditIdCapture.xcframework */; };
+		87280C472CEF81B700FC6F1A /* ScanditIdCapture.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C382CEF81B700FC6F1A /* ScanditIdCapture.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87280C482CEF81B700FC6F1A /* ScanditParser.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C392CEF81B700FC6F1A /* ScanditParser.xcframework */; };
+		87280C492CEF81B700FC6F1A /* ScanditParser.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C392CEF81B700FC6F1A /* ScanditParser.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87280C4A2CEF81B700FC6F1A /* ScanditIDC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3A2CEF81B700FC6F1A /* ScanditIDC.xcframework */; };
+		87280C4B2CEF81B700FC6F1A /* ScanditIDC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3A2CEF81B700FC6F1A /* ScanditIDC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87280C4C2CEF81B700FC6F1A /* ScanditLabelCaptureText.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3B2CEF81B700FC6F1A /* ScanditLabelCaptureText.xcframework */; };
+		87280C4D2CEF81B700FC6F1A /* ScanditLabelCaptureText.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3B2CEF81B700FC6F1A /* ScanditLabelCaptureText.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87280C4E2CEF81B700FC6F1A /* ScanditCaptureCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3C2CEF81B700FC6F1A /* ScanditCaptureCore.xcframework */; };
+		87280C4F2CEF81B700FC6F1A /* ScanditCaptureCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3C2CEF81B700FC6F1A /* ScanditCaptureCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87280C502CEF81B700FC6F1A /* ScanditPriceLabel.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3D2CEF81B700FC6F1A /* ScanditPriceLabel.xcframework */; };
+		87280C512CEF81B700FC6F1A /* ScanditPriceLabel.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3D2CEF81B700FC6F1A /* ScanditPriceLabel.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87280C522CEF81B700FC6F1A /* ScanditIdEuropeDrivingLicense.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3E2CEF81B700FC6F1A /* ScanditIdEuropeDrivingLicense.xcframework */; };
+		87280C532CEF81B700FC6F1A /* ScanditIdEuropeDrivingLicense.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3E2CEF81B700FC6F1A /* ScanditIdEuropeDrivingLicense.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87280C542CEF81B700FC6F1A /* ScanditIdAamvaBarcodeVerification.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3F2CEF81B700FC6F1A /* ScanditIdAamvaBarcodeVerification.xcframework */; };
+		87280C552CEF81B700FC6F1A /* ScanditIdAamvaBarcodeVerification.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87280C3F2CEF81B700FC6F1A /* ScanditIdAamvaBarcodeVerification.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C0AC5C12C7887FA00E409E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0AC5C02C7887FA00E409E9 /* AppDelegate.swift */; };
 		9C0AC5C32C7887FA00E409E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0AC5C22C7887FA00E409E9 /* SceneDelegate.swift */; };
 		9C0AC5C52C7887FA00E409E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0AC5C42C7887FA00E409E9 /* ViewController.swift */; };
@@ -18,7 +40,42 @@
 		9C0AC5DD2C788F3B00E409E9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0AC5DA2C788F3B00E409E9 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		87280C562CEF81B700FC6F1A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				87280C552CEF81B700FC6F1A /* ScanditIdAamvaBarcodeVerification.xcframework in Embed Frameworks */,
+				87280C4F2CEF81B700FC6F1A /* ScanditCaptureCore.xcframework in Embed Frameworks */,
+				87280C432CEF81B700FC6F1A /* ScanditIdVoidedDetection.xcframework in Embed Frameworks */,
+				87280C492CEF81B700FC6F1A /* ScanditParser.xcframework in Embed Frameworks */,
+				87280C4D2CEF81B700FC6F1A /* ScanditLabelCaptureText.xcframework in Embed Frameworks */,
+				87280C412CEF81B700FC6F1A /* ScanditBarcodeCapture.xcframework in Embed Frameworks */,
+				87280C4B2CEF81B700FC6F1A /* ScanditIDC.xcframework in Embed Frameworks */,
+				87280C472CEF81B700FC6F1A /* ScanditIdCapture.xcframework in Embed Frameworks */,
+				87280C532CEF81B700FC6F1A /* ScanditIdEuropeDrivingLicense.xcframework in Embed Frameworks */,
+				87280C512CEF81B700FC6F1A /* ScanditPriceLabel.xcframework in Embed Frameworks */,
+				87280C452CEF81B700FC6F1A /* ScanditLabelCapture.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		87280C352CEF81B700FC6F1A /* ScanditBarcodeCapture.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:79D4J6BB7A:Scandit AG"; lastKnownFileType = wrapper.xcframework; name = ScanditBarcodeCapture.xcframework; path = ../artifacts/ios/ScanditBarcodeCapture.xcframework; sourceTree = "<group>"; };
+		87280C362CEF81B700FC6F1A /* ScanditIdVoidedDetection.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:79D4J6BB7A:Scandit AG"; lastKnownFileType = wrapper.xcframework; name = ScanditIdVoidedDetection.xcframework; path = ../artifacts/ios/ScanditIdVoidedDetection.xcframework; sourceTree = "<group>"; };
+		87280C372CEF81B700FC6F1A /* ScanditLabelCapture.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:79D4J6BB7A:Scandit AG"; lastKnownFileType = wrapper.xcframework; name = ScanditLabelCapture.xcframework; path = ../artifacts/ios/ScanditLabelCapture.xcframework; sourceTree = "<group>"; };
+		87280C382CEF81B700FC6F1A /* ScanditIdCapture.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:79D4J6BB7A:Scandit AG"; lastKnownFileType = wrapper.xcframework; name = ScanditIdCapture.xcframework; path = ../artifacts/ios/ScanditIdCapture.xcframework; sourceTree = "<group>"; };
+		87280C392CEF81B700FC6F1A /* ScanditParser.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:79D4J6BB7A:Scandit AG"; lastKnownFileType = wrapper.xcframework; name = ScanditParser.xcframework; path = ../artifacts/ios/ScanditParser.xcframework; sourceTree = "<group>"; };
+		87280C3A2CEF81B700FC6F1A /* ScanditIDC.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:79D4J6BB7A:Scandit AG"; lastKnownFileType = wrapper.xcframework; name = ScanditIDC.xcframework; path = ../artifacts/ios/ScanditIDC.xcframework; sourceTree = "<group>"; };
+		87280C3B2CEF81B700FC6F1A /* ScanditLabelCaptureText.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:79D4J6BB7A:Scandit AG"; lastKnownFileType = wrapper.xcframework; name = ScanditLabelCaptureText.xcframework; path = ../artifacts/ios/ScanditLabelCaptureText.xcframework; sourceTree = "<group>"; };
+		87280C3C2CEF81B700FC6F1A /* ScanditCaptureCore.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:79D4J6BB7A:Scandit AG"; lastKnownFileType = wrapper.xcframework; name = ScanditCaptureCore.xcframework; path = ../artifacts/ios/ScanditCaptureCore.xcframework; sourceTree = "<group>"; };
+		87280C3D2CEF81B700FC6F1A /* ScanditPriceLabel.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:79D4J6BB7A:Scandit AG"; lastKnownFileType = wrapper.xcframework; name = ScanditPriceLabel.xcframework; path = ../artifacts/ios/ScanditPriceLabel.xcframework; sourceTree = "<group>"; };
+		87280C3E2CEF81B700FC6F1A /* ScanditIdEuropeDrivingLicense.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:79D4J6BB7A:Scandit AG"; lastKnownFileType = wrapper.xcframework; name = ScanditIdEuropeDrivingLicense.xcframework; path = ../artifacts/ios/ScanditIdEuropeDrivingLicense.xcframework; sourceTree = "<group>"; };
+		87280C3F2CEF81B700FC6F1A /* ScanditIdAamvaBarcodeVerification.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:79D4J6BB7A:Scandit AG"; lastKnownFileType = wrapper.xcframework; name = ScanditIdAamvaBarcodeVerification.xcframework; path = ../artifacts/ios/ScanditIdAamvaBarcodeVerification.xcframework; sourceTree = "<group>"; };
 		9C0AC5BD2C7887FA00E409E9 /* IdCaptureSurveySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdCaptureSurveySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0AC5C02C7887FA00E409E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C0AC5C22C7887FA00E409E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,16 +94,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87280C542CEF81B700FC6F1A /* ScanditIdAamvaBarcodeVerification.xcframework in Frameworks */,
+				87280C4E2CEF81B700FC6F1A /* ScanditCaptureCore.xcframework in Frameworks */,
+				87280C422CEF81B700FC6F1A /* ScanditIdVoidedDetection.xcframework in Frameworks */,
+				87280C482CEF81B700FC6F1A /* ScanditParser.xcframework in Frameworks */,
+				87280C4C2CEF81B700FC6F1A /* ScanditLabelCaptureText.xcframework in Frameworks */,
+				87280C402CEF81B700FC6F1A /* ScanditBarcodeCapture.xcframework in Frameworks */,
+				87280C4A2CEF81B700FC6F1A /* ScanditIDC.xcframework in Frameworks */,
+				87280C462CEF81B700FC6F1A /* ScanditIdCapture.xcframework in Frameworks */,
+				87280C522CEF81B700FC6F1A /* ScanditIdEuropeDrivingLicense.xcframework in Frameworks */,
+				87280C502CEF81B700FC6F1A /* ScanditPriceLabel.xcframework in Frameworks */,
+				87280C442CEF81B700FC6F1A /* ScanditLabelCapture.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87280C342CEF81B700FC6F1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87280C352CEF81B700FC6F1A /* ScanditBarcodeCapture.xcframework */,
+				87280C3C2CEF81B700FC6F1A /* ScanditCaptureCore.xcframework */,
+				87280C3F2CEF81B700FC6F1A /* ScanditIdAamvaBarcodeVerification.xcframework */,
+				87280C3A2CEF81B700FC6F1A /* ScanditIDC.xcframework */,
+				87280C382CEF81B700FC6F1A /* ScanditIdCapture.xcframework */,
+				87280C3E2CEF81B700FC6F1A /* ScanditIdEuropeDrivingLicense.xcframework */,
+				87280C362CEF81B700FC6F1A /* ScanditIdVoidedDetection.xcframework */,
+				87280C372CEF81B700FC6F1A /* ScanditLabelCapture.xcframework */,
+				87280C3B2CEF81B700FC6F1A /* ScanditLabelCaptureText.xcframework */,
+				87280C392CEF81B700FC6F1A /* ScanditParser.xcframework */,
+				87280C3D2CEF81B700FC6F1A /* ScanditPriceLabel.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C0AC5B42C7887FA00E409E9 = {
 			isa = PBXGroup;
 			children = (
 				9C0AC5BF2C7887FA00E409E9 /* IdCaptureSurveySwift */,
+				87280C342CEF81B700FC6F1A /* Frameworks */,
 				9C0AC5BE2C7887FA00E409E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +173,7 @@
 				9C0AC5B92C7887FA00E409E9 /* Sources */,
 				9C0AC5BA2C7887FA00E409E9 /* Frameworks */,
 				9C0AC5BB2C7887FA00E409E9 /* Resources */,
+				87280C562CEF81B700FC6F1A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,10 +390,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IdCaptureSurveySwift/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan ids";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +408,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scandit.sdc.idcapture.survey.swift.IdCaptureSurveySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,10 +420,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IdCaptureSurveySwift/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan ids";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -345,6 +438,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scandit.sdc.idcapture.survey.swift.IdCaptureSurveySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
