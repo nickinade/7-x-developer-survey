@@ -129,17 +129,17 @@ extension ScanningViewController: IdCaptureListener {
         print("didReject: \(String(describing: capturedId)), reason: \(rejectionReason)")
         
         idCapture.removeListener(self)
-//        if capturedId?.issuingCountry == .vietnam {
-//            // need to get back to the main thread for updating UI
-//            DispatchQueue.main.async { [weak self] in
-//                let errorText = "This ID is not accepted. Please try again with another document"
-//                self?.openResultViewController(resultText: errorText)
-//            }
-//        } else {
+        if capturedId?.issuingCountry == .vietnam {
+            // need to get back to the main thread for updating UI
+            DispatchQueue.main.async { [weak self] in
+                let errorText = "This ID is not accepted. Please try again with another document"
+                self?.openResultViewController(resultText: errorText)
+            }
+        } else {
             // need to get back to the main thread for updating UI
             DispatchQueue.main.async { [weak self] in
                 self?.showError()
             }
-//        }
+        }
     }
 }
